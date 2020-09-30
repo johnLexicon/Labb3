@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    font-size: 3em;
+    margin: .5em 0 .1em 0;
+}
+
+.subheader {
+    font-size: 1.5em;
+    margin-bottom: 1.2em;
+}
+
+.left-content {
+    display: flex;
+    justify-content: center;
+}
+
+.big-image {
+    width: 95%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+}
+
+.small-image {
+    padding: .1em;
+    width: 23%;
+}
+
+.content-header {
+    font-size: 1.2em;
+    text-align: center;
+    margin: .5em 0 2em;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.text {
+    font-weight: bold;
+    margin: 0 3.8em;
+}
+
+@media screen and (min-width: 1365px) {
+
+    .container {
+        margin: 2em;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .right-content {
+        justify-content: space-around;
+        width: 50%;
+    }
+
+    .images {
+        margin-top: 7em;
+    }
+}
