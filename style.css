@@ -3,10 +3,13 @@
 
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to bottom right, black, white);
 }
 
 .container {
@@ -19,23 +22,24 @@ body {
 .header {
     font-size: 3em;
     margin: .5em 0 .1em 0;
+    color: #aaa;
 }
 
 .subheader {
     font-size: 1.5em;
     margin-bottom: 1.2em;
+    color: #aaa;
 }
 
 .left-content {
     display: flex;
     justify-content: center;
+    text-align: center; /* For the link image */
 }
 
 .big-image {
     width: 95%;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
+    border-radius: 3px;
 }
 
 .content {
@@ -56,6 +60,7 @@ body {
 .small-image {
     padding: .1em;
     width: 23%;
+    border-radius: 5px;
 }
 
 .content-header {
@@ -69,7 +74,7 @@ body {
 
 .text {
     font-weight: bold;
-    margin: 0 3.8em;
+    margin: 1em 3.8em;
 }
 
 @media screen and (min-width: 1365px) {
@@ -90,6 +95,6 @@ body {
     }
 
     .images {
-        margin-top: 7em;
+        margin-top: 3em;
     }
 }
